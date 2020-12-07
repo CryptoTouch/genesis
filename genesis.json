@@ -76,21 +76,21 @@
   ],
   "coins": [
     {
-      "currencyId": "0",
+      "currencyId": 0,
       "network": "bitcoin",
       "networkId": 0,
       "symbol": "BTC",
       "decimals": 8
     },
     {
-      "currencyId": "1",
+      "currencyId": 1,
       "network": "ethereum",
       "networkId": 1,
       "symbol": "ETH",
       "decimals": 18
     },
     {
-      "currencyId": "2",
+      "currencyId": 2,
       "network": "ethereum",
       "networkId": 56,
       "symbol": "BNB",
