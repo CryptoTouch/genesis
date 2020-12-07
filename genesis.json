@@ -89,5 +89,10 @@
       "name": "Tether USD",
       "decimals": 6
     }
-  ]
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
 }
