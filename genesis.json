@@ -1,0 +1,93 @@
+{
+  "networks": {
+    "bitcoin": [
+      {
+        "id": 0,
+        "name": "Bitcoin",
+        "pubKeyHash": "0x00",
+        "scriptHash": "0x05",
+        "wif": "0x80",
+        "rpcURI": "https://rpc.blockchain.info"
+      }
+    ],
+    "ethereum": [
+      {
+        "chainId": 1,
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "decimals": 18,
+        "rpcURI": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+      },
+      {
+        "chainId": 56,
+        "name": "Binance Smart Chain",
+        "symbol": "BNB",
+        "decimals": 18,
+        "rpcURI": "https://bsc-dataseed1.binance.org"
+      }
+    ]
+  },
+	"cryptocurrencies": [
+    {
+      "id": 0,
+      "name": "Bitcoin",
+      "symbol": "BTC"
+    },
+	  {
+      "id": 1,
+      "name": "Tether USD",
+		  "symbol": "USDT"
+    },
+    {
+      "id": 2,
+      "name": "USD Coin",
+		  "symbol": "USDC"
+    }
+  ],
+	"coins": [
+    {
+      "network": "bitcoin",
+      "networkId": 0,
+      "symbol": "BTC",
+      "decimals": 8
+    },
+    {
+      "network": "ethereum",
+      "networkId": 1,
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    {
+      "network": "ethereum",
+      "networkId": 56,
+      "symbol": "BNB",
+      "decimals": 18
+    }
+  ],
+  "tokens": [
+    {
+      "coinId": 2,
+      "chainId": 1,
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6
+    },
+    {
+      "coinId": 2,
+      "chainId": 56,
+      "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin",
+      "decimals": 18
+    },
+    {
+      "coinId": 1,
+      "chainId": 1,
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6
+    }
+  ]
+}
