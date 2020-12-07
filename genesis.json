@@ -27,24 +27,24 @@
       }
     ]
   },
-	"cryptocurrencies": [
+  "cryptocurrencies": [
     {
       "id": 0,
       "name": "Bitcoin",
       "symbol": "BTC"
     },
-	  {
+    {
       "id": 1,
       "name": "Tether USD",
-		  "symbol": "USDT"
+      "symbol": "USDT"
     },
     {
       "id": 2,
       "name": "USD Coin",
-		  "symbol": "USDC"
+      "symbol": "USDC"
     }
   ],
-	"coins": [
+  "coins": [
     {
       "network": "bitcoin",
       "networkId": 0,
