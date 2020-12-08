@@ -1,0 +1,38 @@
+[
+  {
+      "name": "Uniswap",
+      "category": "Trading",
+      "description": "Protocol for automated token exchange",
+      "uri": "https://app.uniswap.org",
+      "id": 1001,
+      "isFeatured": true,
+      "chainIds": [1]
+  },
+  {
+      "name": "Compound",
+      "category": "Lending",
+      "description": "Algorithmic money markets",
+      "uri": "https://app.compound.finance",
+      "id": 1002,
+      "isFeatured": true,
+      "chainIds": [1]
+  },
+  {
+      "name": "ForTube",
+      "category": "Lending",
+      "description": "ForTube Bank V2 is an enhanced crypto bank that provides lending services with algorithmic current interest rates.",
+      "uri": "https://for.tube",
+      "id": 1003,
+      "isFeatured": false,
+      "chainIds": [1]
+  },
+  {
+      "name": "1inch.exchange",
+      "category": "Trading",
+      "description": "DEX Aggregator with the best prices on the market. Achieving best rates by splitting orders among multiple DEXes in one single transaction.",
+      "uri": "https://bsc.dego.finance/",
+      "id": 1004,
+      "isFeatured": false,
+      "chainIds": [1]
+  }
+]
