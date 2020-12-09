@@ -1,0 +1,23 @@
+[
+  {
+    "currencyId": 1,
+    "network": "bitcoin",
+    "networkId": 0,
+    "symbol": "BTC",
+    "decimals": 8
+  },
+  {
+    "currencyId": 2,
+    "network": "ethereum",
+    "networkId": 1,
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  {
+    "currencyId": 3,
+    "network": "ethereum",
+    "networkId": 56,
+    "symbol": "BNB",
+    "decimals": 18
+  }
+]

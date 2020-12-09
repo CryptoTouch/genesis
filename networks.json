@@ -1,0 +1,23 @@
+{
+  "bitcoin": [
+    {
+      "id": 0,
+      "name": "Bitcoin",
+      "pubKeyHash": "0x00",
+      "scriptHash": "0x05",
+      "rpcURI": "https://rpc.blockchain.info"
+    }
+  ],
+  "ethereum": [
+    {
+      "chainId": 1,
+      "name": "Ethereum",
+      "rpcURI": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+    },
+    {
+      "chainId": 56,
+      "name": "Binance Smart Chain",
+      "rpcURI": "https://bsc-dataseed1.binance.org"
+    }
+  ]
+}
