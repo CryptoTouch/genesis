@@ -4,6 +4,7 @@
       "category": "Trading",
       "description": "Protocol for automated token exchange",
       "uri": "https://app.uniswap.org",
+      "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/uni.png",
       "id": 1001,
       "isFeatured": true,
       "chainIds": [1]
@@ -13,17 +14,9 @@
       "category": "Lending",
       "description": "Algorithmic money markets",
       "uri": "https://app.compound.finance",
+      "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/comp.png",
       "id": 1002,
       "isFeatured": true,
-      "chainIds": [1]
-  },
-  {
-      "name": "ForTube",
-      "category": "Lending",
-      "description": "ForTube Bank V2 is an enhanced crypto bank that provides lending services with algorithmic current interest rates.",
-      "uri": "https://for.tube",
-      "id": 1003,
-      "isFeatured": false,
       "chainIds": [1]
   },
   {
@@ -31,7 +24,8 @@
       "category": "Trading",
       "description": "DEX Aggregator with the best prices on the market. Achieving best rates by splitting orders among multiple DEXes in one single transaction.",
       "uri": "https://bsc.dego.finance/",
-      "id": 1004,
+      "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/1inch.png",
+      "id": 1003,
       "isFeatured": false,
       "chainIds": [1]
   }
