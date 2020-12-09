@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Cryptocurrency",
+    "relativePath": "cryptocurrencies.json",
+    "version": 1
+  },
+  {
+    "name": "Dapp",
+    "relativePath": "dapps.json",
+    "version": 1
+  }
+]
