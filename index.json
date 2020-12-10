@@ -18,5 +18,15 @@
     "name": "EthereumNetwork",
     "relativePath": "networks/ethereum.json",
     "version": 1
+  },
+  {
+    "name": "Coin",
+    "relativePath": "coins.json",
+    "version": 1
+  },
+  {
+    "name": "Token",
+    "relativePath": "tokens.json",
+    "version": 1
   }
 ]
