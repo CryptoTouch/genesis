@@ -8,5 +8,15 @@
     "name": "Dapp",
     "relativePath": "dapps.json",
     "version": 1
+  },
+  {
+    "name": "BitcoinNetwork",
+    "relativePath": "networks/bitcoin.json",
+    "version": 1
+  },
+  {
+    "name": "EthereumNetwork",
+    "relativePath": "networks/ethereum.json",
+    "version": 1
   }
 ]
