@@ -9,14 +9,14 @@
   {
     "currencyId": 2,
     "network": "ethereum",
-    "networkId": 1,
+    "networkId": 60,
     "symbol": "ETH",
     "decimals": 18
   },
   {
     "currencyId": 3,
     "network": "ethereum",
-    "networkId": 56,
+    "networkId": 519,
     "symbol": "BNB",
     "decimals": 18
   }
