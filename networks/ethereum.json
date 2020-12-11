@@ -1,10 +1,12 @@
 [
   {
+    "id": 60,
     "chainId": 1,
     "name": "Ethereum",
     "rpcURI": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
   },
   {
+    "id": 519,
     "chainId": 56,
     "name": "Binance Smart Chain",
     "rpcURI": "https://bsc-dataseed1.binance.org"
