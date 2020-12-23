@@ -3,7 +3,13 @@
     "id": 60,
     "chainId": 1,
     "name": "Ethereum",
-    "rpcURI": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+    "rpcURI": "https://mainnet.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb"
+  },
+  {
+    "id": 1,
+    "chainId": 42,
+    "name": "Kovan",
+    "rpcURI": "https://kovan.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb"
   },
   {
     "id": 519,

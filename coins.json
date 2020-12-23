@@ -19,5 +19,12 @@
     "networkId": 519,
     "symbol": "BNB",
     "decimals": 18
+  },
+  {
+    "currencyId": 11,
+    "network": "ethereum",
+    "networkId": 1,
+    "symbol": "KETH",
+    "decimals": 18
   }
 ]

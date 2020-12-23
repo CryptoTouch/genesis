@@ -58,5 +58,11 @@
     "name": "Compound",
     "symbol": "COMP",
     "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/comp.png"
+  },
+  {
+    "id": 11,
+    "name": "Kovan Test Network",
+    "symbol": "KETH",
+    "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/comp.png"
   }
 ]
