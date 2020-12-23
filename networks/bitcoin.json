@@ -1,9 +1,0 @@
-[
-  {
-    "id": 0,
-    "name": "Bitcoin",
-    "pubKeyHash": "0x00",
-    "scriptHash": "0x05",
-    "rpcURI": "https://rpc.blockchain.info"
-  }
-]
