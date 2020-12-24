@@ -6,7 +6,8 @@
         "name": "Bitcoin",
         "pubKeyHash": "0x00",
         "scriptHash": "0x05",
-        "rpcURI": "https://rpc.blockchain.info"
+        "rpcURI": "https://rpc.blockchain.info",
+        "bitcoreURI": "https://api.bitcore.io/api/BTC/mainnet"
       }
     ],
     "ethereum": [
