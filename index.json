@@ -12,16 +12,22 @@
     ],
     "ethereum": [
       {
+        "id": 1,
+        "chainId": 42,
+        "name": "Kovan",
+        "rpcURI": "https://kovan.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb"
+      },
+      {
         "id": 60,
         "chainId": 1,
         "name": "Ethereum",
         "rpcURI": "https://mainnet.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb"
       },
       {
-        "id": 1,
-        "chainId": 42,
-        "name": "Kovan",
-        "rpcURI": "https://kovan.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb"
+        "id": 61,
+        "chainId": 61,
+        "name": "Ethereum Classic",
+        "rpcURI": "https://www.ethercluster.com/etc"
       },
       {
         "id": 519,
@@ -97,6 +103,12 @@
       "name": "Kovan Test Network",
       "symbol": "KETH",
       "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/eth.png"
+    },
+    {
+      "id": 12,
+      "name": "Ethereum Classic",
+      "symbol": "ETC",
+      "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/etc.png"
     }
   ],
   "coins": [
@@ -126,6 +138,13 @@
       "network": "ethereum",
       "networkId": 1,
       "symbol": "KETH",
+      "decimals": 18
+    },
+    {
+      "currencyId": 12,
+      "network": "ethereum",
+      "networkId": 61,
+      "symbol": "ETC",
       "decimals": 18
     }
   ],
