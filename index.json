@@ -19,7 +19,7 @@
         "name": "Kovan",
         "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/kovan.png",
         "rpcURI": "https://kovan.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb",
-        "blockExplorerURI": "https://etherscan.io"
+        "blockExplorerURI": "https://kovan.etherscan.io"
       },
       {
         "id": 60,
@@ -27,7 +27,7 @@
         "name": "Ethereum",
         "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/eth.png",
         "rpcURI": "https://mainnet.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb",
-        "blockExplorerURI": "https://kovan.etherscan.io"
+        "blockExplorerURI": "https://etherscan.io"
       },
       {
         "id": 61,
