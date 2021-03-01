@@ -43,7 +43,7 @@
         "name": "Binance Smart Chain",
         "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/bnb.png",
         "rpcURI": "https://bsc-dataseed1.binance.org",
-        "blockExplorerURI": "https://www.bscscan.com/"
+        "blockExplorerURI": "https://www.bscscan.com"
       }
     ]
   },
