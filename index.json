@@ -114,6 +114,12 @@
       "name": "Ethereum Classic",
       "symbol": "ETC",
       "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/etc.png"
+    },
+    {
+      "id": 13,
+      "name": "Frieza",
+      "symbol": "FRZ",
+      "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/frz.png"
     }
   ],
   "coins": [
@@ -224,6 +230,14 @@
       "address": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
       "symbol": "BNB",
       "name": "BNB",
+      "decimals": 18
+    },
+    {
+      "currencyId": 13,
+      "chainId": 42,
+      "address": "0x399FFD65855A6A3697Ad1E633fC1f007994CaE39",
+      "symbol": "FRZ",
+      "name": "Frieza",
       "decimals": 18
     }
   ],
