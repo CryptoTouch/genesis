@@ -2,28 +2,36 @@
   "networks": {
     "bitcoin": [
       {
-        "id": 0,
+        "id": 1,
+        "slip44": 0,
         "name": "Bitcoin",
+        "bech32": "bc",
         "pubKeyHash": "0x00",
         "scriptHash": "0x05",
+        "wif": "0x80",
         "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/btc.png",
-        "rpcURI": "https://rpc.blockchain.info",
+        "rpcURI": "",
         "bitcoreURI": "https://api.bitcore.io/api/BTC/mainnet",
         "blockExplorerURI": "https://www.blockchain.com/btc"
+      },
+      {
+        "id": 2,
+        "slip44": 1,
+        "name": "Bitcoin Testnet",
+        "bech32": "tb",
+        "pubKeyHash": "0x6f",
+        "scriptHash": "0xc4",
+        "wif": "0xef",
+        "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/btc.png",
+        "rpcURI": "",
+        "bitcoreURI": "https://api.bitcore.io/api/BTC/testnet",
+        "blockExplorerURI": "https://www.blockchain.com/btc-testnet"
       }
     ],
     "ethereum": [
       {
         "id": 1,
-        "chainId": 42,
-        "name": "Kovan",
-        "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/kovan.png",
-        "rpcURI": "https://kovan.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb",
-        "blockExplorerURI": "https://kovan.etherscan.io"
-      },
-      {
-        "id": 60,
-        "chainId": 1,
+        "slip44": 60,
         "name": "Ethereum",
         "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/eth.png",
         "rpcURI": "https://mainnet.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb",
@@ -31,19 +39,27 @@
       },
       {
         "id": 61,
-        "chainId": 61,
+        "slip44": 61,
         "name": "Ethereum Classic",
         "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/etc.png",
         "rpcURI": "https://www.ethercluster.com/etc",
         "blockExplorerURI": "https://blockscout.com/etc/mainnet"
       },
       {
-        "id": 519,
-        "chainId": 56,
+        "id": 56,
+        "slip44": 60,
         "name": "Binance Smart Chain",
         "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/bnb.png",
         "rpcURI": "https://bsc-dataseed1.binance.org",
         "blockExplorerURI": "https://www.bscscan.com"
+      },
+      {
+        "id": 42,
+        "slip44": 60,
+        "name": "Kovan",
+        "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/kovan.png",
+        "rpcURI": "https://kovan.infura.io/v3/a5fa5e4223904ff9b9770315df23afdb",
+        "blockExplorerURI": "https://kovan.etherscan.io"
       }
     ]
   },
@@ -125,34 +141,40 @@
       "name": "Frieza",
       "symbol": "FRZ",
       "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/frz.png"
+    },
+    {
+      "id": 14,
+      "name": "Bitcoin Testnet",
+      "symbol": "BTC",
+      "logoURI": "https://raw.githubusercontent.com/CryptoTouch/oracle/main/icons/btc.png"
     }
   ],
   "coins": [
     {
       "currencyId": 1,
       "network": "bitcoin",
-      "networkId": 0,
+      "networkId": 1,
       "symbol": "BTC",
       "decimals": 8
     },
     {
       "currencyId": 2,
       "network": "ethereum",
-      "networkId": 60,
+      "networkId": 1,
       "symbol": "ETH",
       "decimals": 18
     },
     {
       "currencyId": 3,
       "network": "ethereum",
-      "networkId": 519,
+      "networkId": 56,
       "symbol": "BNB",
       "decimals": 18
     },
     {
       "currencyId": 11,
       "network": "ethereum",
-      "networkId": 1,
+      "networkId": 42,
       "symbol": "KETH",
       "decimals": 18
     },
@@ -162,6 +184,13 @@
       "networkId": 61,
       "symbol": "ETC",
       "decimals": 18
+    },
+    {
+      "currencyId": 13,
+      "network": "bitcoin",
+      "networkId": 2,
+      "symbol": "BTC",
+      "decimals": 8
     }
   ],
   "tokens": [
