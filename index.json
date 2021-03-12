@@ -63,7 +63,7 @@
       }
     ]
   },
-  "cryptocurrencies": [
+  "cryptoassets": [
     {
       "id": 1,
       "name": "Bitcoin",
@@ -151,42 +151,42 @@
   ],
   "coins": [
     {
-      "currencyId": 1,
+      "assetId": 1,
       "network": "bitcoin",
       "networkId": 1,
       "symbol": "BTC",
       "decimals": 8
     },
     {
-      "currencyId": 2,
+      "assetId": 2,
       "network": "ethereum",
       "networkId": 1,
       "symbol": "ETH",
       "decimals": 18
     },
     {
-      "currencyId": 3,
+      "assetId": 3,
       "network": "ethereum",
       "networkId": 56,
       "symbol": "BNB",
       "decimals": 18
     },
     {
-      "currencyId": 11,
+      "assetId": 11,
       "network": "ethereum",
       "networkId": 42,
       "symbol": "KETH",
       "decimals": 18
     },
     {
-      "currencyId": 12,
+      "assetId": 12,
       "network": "ethereum",
       "networkId": 61,
       "symbol": "ETC",
       "decimals": 18
     },
     {
-      "currencyId": 13,
+      "assetId": 13,
       "network": "bitcoin",
       "networkId": 2,
       "symbol": "BTC",
@@ -195,7 +195,7 @@
   ],
   "tokens": [
     {
-      "currencyId": 4,
+      "assetId": 4,
       "chainId": 1,
       "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
       "symbol": "USDT",
@@ -203,7 +203,7 @@
       "decimals": 6
     },
     {
-      "currencyId": 5,
+      "assetId": 5,
       "chainId": 1,
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "symbol": "USDC",
@@ -211,7 +211,7 @@
       "decimals": 6
     },
     {
-      "currencyId": 6,
+      "assetId": 6,
       "chainId": 1,
       "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
       "symbol": "DAI",
@@ -219,7 +219,7 @@
       "decimals": 18
     },
     {
-      "currencyId": 7,
+      "assetId": 7,
       "chainId": 1,
       "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
       "symbol": "BUSD",
@@ -227,7 +227,7 @@
       "decimals": 18
     },
     {
-      "currencyId": 7,
+      "assetId": 7,
       "chainId": 56,
       "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
       "symbol": "BUSD",
@@ -235,7 +235,7 @@
       "decimals": 18
     },
     {
-      "currencyId": 8,
+      "assetId": 8,
       "chainId": 1,
       "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
       "symbol": "WBTC",
@@ -243,7 +243,7 @@
       "decimals": 8
     },
     {
-      "currencyId": 9,
+      "assetId": 9,
       "chainId": 1,
       "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
       "symbol": "UNI",
@@ -251,7 +251,7 @@
       "decimals": 18
     },
     {
-      "currencyId": 10,
+      "assetId": 10,
       "chainId": 1,
       "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
       "symbol": "COMP",
@@ -259,7 +259,7 @@
       "decimals": 18
     },
     {
-      "currencyId": 3,
+      "assetId": 3,
       "chainId": 1,
       "address": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
       "symbol": "BNB",
@@ -267,7 +267,7 @@
       "decimals": 18
     },
     {
-      "currencyId": 13,
+      "assetId": 13,
       "chainId": 42,
       "address": "0x5abe286F5EA6132B157cfD728834D493Cbd43314",
       "symbol": "FRZ",
